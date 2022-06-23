@@ -101,10 +101,10 @@ Megvizsgálja, hogy a játék kezdetén helyesen töltődtek-e át az adatok a l
 - public void jatekvege()
 Egyre állítjuk a megmaradt életeket, majdnem egy szellemmel való ütközést vizsgálunk. Mivel ez volt az utolsó élet a játéknak vége kell hogy legyen.
 
-- public void eletvesztes()
+- `public void eletvesztes()`
 Szimulálunk egy játékot, ahol ütközünk egy szellemmel. Megvizsgáljuk, hogy csökkent-e egyel az életek száma.
 
-- public void kovSzint()
+- `public void kovSzint()`
 Megnézzük hogyha megváltoztatjuk a pályát (felveszünk egy golyót) és indítunk egy következő szintet, hogy visszaáll-e alaphelyzetre a pálya és megkaptuk-e a bónusz 50 pontot.
 
 

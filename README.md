@@ -18,3 +18,9 @@ Pacman játék A játék lényege, hogy a felhasználó, az általa irányított
 Ennek a use-case-nek az aktorja a Játékos. Főeseménye, hogy a játékos pacmant
 jobbra, balra, fel vagy le indítja el. Az események ezen belül a következőek lehetnek
 (alternatív forgatókönyvek):
+
+- Egy pont felszedése és hozzáadása a számlálóhoz
+  - Minden pont elfogyott, a játékos nyert
+- Szellemmel való ütközés esetén egy életet elvesztünk
+  - Ha minden élet elfogyott, a játékos vesztett
+- Ha pacman falhoz ér megáll

@@ -59,6 +59,8 @@ Ha sikerül az összes golyót összeszedni a pályán, akkor a játék megkérd
 
 A program a következő java fileokat tartalmazza:
 
+| Osztálynév | Funkció |
+| --- | --- |
 | Eredmeny  | Osztály egy-egy tárolt eredményhez   |
 | EredmenyLista   | Osztály az eredménylistához, filekezeléshez   |
 | GameListener   | Interface a Tabala és PacmanFoablak kapcsolathoz   |

@@ -1,0 +1,5 @@
+LEGJOBB;341
+sokpont;319
+Uj;310
+RandomUser;200
+asd;130

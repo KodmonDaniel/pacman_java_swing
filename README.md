@@ -1,5 +1,5 @@
 # 2D Pacman (java + swing)
-2D pacman game created with java. The GUI is created with swing. (2022)
+2D pacman game created with java. The GUI is created with swing. (2020)
 
 
 <img src="images/1.png" width="400"> 

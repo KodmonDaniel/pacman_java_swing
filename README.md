@@ -2,7 +2,7 @@
 2D pacman game created with java. The GUI is create with swing.
 
 
-UNDER UPLOAD
+<img src="images/1.png" width="400"> 
 
 ## Rövid ismertető
 
@@ -10,4 +10,11 @@ Pacman játék A játék lényege, hogy a felhasználó, az általa irányított
 
 ## Use-case-ek
 
+<img src="images/2.png" width="400"> 
+> A játék egyszerű use-case diagramja
 
+### Pacman irányítás
+
+Ennek a use-case-nek az aktorja a Játékos. Főeseménye, hogy a játékos pacmant
+jobbra, balra, fel vagy le indítja el. Az események ezen belül a következőek lehetnek
+(alternatív forgatókönyvek):

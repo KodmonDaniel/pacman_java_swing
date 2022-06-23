@@ -73,32 +73,32 @@ A program a következő java fileokat tartalmazza:
 
 A JUnit 4 tesztek a JUnitTest source folder-ben található unittest.java file. A következő teszteket futtattam le, amelyek mind sikeresek:
 
-- public void nevlekerdez()
+- `public void nevlekerdez()`
 	Lekérdezi egy eredmény objektum név adatát. 
 
-- public void pontlekerdez()
+-` public void pontlekerdez()`
 	Lekérdezi egy eredmény objektum pont adatát. 
 
-- public void pontbeallit()
+-` public void pontbeallit()`
 	Beállít egy pontértéket egy eredmény objektumnak.
 
-- public void osszehasonlit()
+-` public void osszehasonlit()`
 	Összehasonlít két eredmény objektumot, hogy melyik nagyobb vagy egyenlőek. 
 
-- public void fileBeolvas() throws IOException
+-` public void fileBeolvas() throws IOException`
 	Megpróbál beolvasni egy ismeretlen filet.
 
-- public void listaell() throws IOException
+-` public void listaell() throws IOException`
 Létrehoz egy üres eredménylistát és egy eredményobjektumot. Megpróbáljuk belerakni az eredményt a listába.
 
-- public void nehezseg()
+- `public void nehezseg()`
 Beállít egy könnyű nehézséget és megnézi, hogy ennek megfelelően változtak-e az értékek.
 
-- public void labTeszt()
+-` public void labTeszt()`
 Megvizsgálja, hogy a játék kezdetén helyesen töltődtek-e át az adatok a labirintus tömbből a módosítható ideiglenesbe.
 
 
-- public void jatekvege()
+- `public void jatekvege()`
 Egyre állítjuk a megmaradt életeket, majdnem egy szellemmel való ütközést vizsgálunk. Mivel ez volt az utolsó élet a játéknak vége kell hogy legyen.
 
 - `public void eletvesztes()`

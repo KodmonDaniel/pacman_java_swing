@@ -1,5 +1,5 @@
 # 2D Pacman (java + swing)
-2D pacman game created with java. The GUI is create with swing.
+2D pacman game created with java. The GUI is created with swing.
 
 
 <img src="images/1.png" width="400"> 
@@ -66,5 +66,46 @@ A program a következő java fileokat tartalmazza:
 | GameListener   | Interface a Tabala és PacmanFoablak kapcsolathoz   |
 | PacmanFoablak   | Osztály a játék vége metódusokhoz és main   |
 | Tabla   | Osztály a pálya vezérlésére   |
+
+`TODO...`
+
+## Unit tesztek
+
+A JUnit 4 tesztek a JUnitTest source folder-ben található unittest.java file. A következő teszteket futtattam le, amelyek mind sikeresek:
+
+- public void nevlekerdez()
+	Lekérdezi egy eredmény objektum név adatát. 
+
+- public void pontlekerdez()
+	Lekérdezi egy eredmény objektum pont adatát. 
+
+- public void pontbeallit()
+	Beállít egy pontértéket egy eredmény objektumnak.
+
+- public void osszehasonlit()
+	Összehasonlít két eredmény objektumot, hogy melyik nagyobb vagy egyenlőek. 
+
+- public void fileBeolvas() throws IOException
+	Megpróbál beolvasni egy ismeretlen filet.
+
+- public void listaell() throws IOException
+Létrehoz egy üres eredménylistát és egy eredményobjektumot. Megpróbáljuk belerakni az eredményt a listába.
+
+- public void nehezseg()
+Beállít egy könnyű nehézséget és megnézi, hogy ennek megfelelően változtak-e az értékek.
+
+- public void labTeszt()
+Megvizsgálja, hogy a játék kezdetén helyesen töltődtek-e át az adatok a labirintus tömbből a módosítható ideiglenesbe.
+
+
+- public void jatekvege()
+Egyre állítjuk a megmaradt életeket, majdnem egy szellemmel való ütközést vizsgálunk. Mivel ez volt az utolsó élet a játéknak vége kell hogy legyen.
+
+- public void eletvesztes()
+Szimulálunk egy játékot, ahol ütközünk egy szellemmel. Megvizsgáljuk, hogy csökkent-e egyel az életek száma.
+
+- public void kovSzint()
+Megnézzük hogyha megváltoztatjuk a pályát (felveszünk egy golyót) és indítunk egy következő szintet, hogy visszaáll-e alaphelyzetre a pálya és megkaptuk-e a bónusz 50 pontot.
+
 
 

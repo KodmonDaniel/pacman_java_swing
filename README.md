@@ -1,4 +1,4 @@
-# pacman_java_swing
+# 2D Pacman (java + swing)
 2D pacman game created with java. The GUI is create with swing.
 
 
@@ -54,5 +54,15 @@ Indítás után a játékos célja, hogy összeszedje a pályán található ös
 Amennyiben elfogy mind a három élet, a játéknak vége. Ha a megszerzett pontszám alapján a játékosnak sikerül az eredménylistára kerülnie, a játék megkérdezi a nevét, (nem kötelező megadni) amit kiír a pontszám mellé az eredménylista megfelelő helyére. Ha nem sikerül annyi pontot gyűjteni, hogy felkerüljön az eredménylistára, akkor csak megjelenik az aktuális eredménylista.
 
 Ha sikerül az összes golyót összeszedni a pályán, akkor a játék megkérdezi a játékost, hogy szeretné-e folytatni a játékot. Nem válasz esetén a helyzet hasonló ahhoz mintha vesztettünk volna. A játék bekéri a nevünket, ha sikerül felkerülni az eredménylistára. Abban az esetben ah a játékos szeretné folytatni a játékot a pálya újra generálódik (újra golyó lesz mindenhol) viszont a pontszám megmarad és így folytathatja a pontok gyűjtését.
+
+## Osztályrendszer
+
+A program a következő java fileokat tartalmazza:
+
+| Eredmeny  | Osztály egy-egy tárolt eredményhez   |
+| EredmenyLista   | Osztály az eredménylistához, filekezeléshez   |
+| GameListener   | Interface a Tabala és PacmanFoablak kapcsolathoz   |
+| PacmanFoablak   | Osztály a játék vége metódusokhoz és main   |
+| Tabla   | Osztály a pálya vezérlésére   |
 
 
